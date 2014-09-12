@@ -1,0 +1,221 @@
+body
+{
+	color: white;
+/* background: url(../images/alpha.png);position: fixed;
+top: 0;
+left: 0;
+background: rgba(0, 0, 0, 0.5) url();
+padding: 5px 50px 5px 5px;
+width: 99%;
+text-align: right;*/
+
+	/*width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-box;
+	-webkit-box-pack:center;
+	-moz-box-pack:center;
+	-ms-box-pack:center;
+
+	background-repeat: no-repeat;*/
+}
+
+.top-col
+{
+	padding-top: 50px;
+}
+
+#home
+{
+	height: 1000px;
+}
+
+header
+{
+	background: rgba(0, 0, 0, 0.5) url();
+	border-bottom: 0;
+}
+
+
+#home
+{
+	padding-top: 50px;
+}
+
+.icon-bar, span.sr-only {
+  background-color: #fff;
+}
+
+.navbar li a
+{
+	color: white;
+}
+.dropdown-menu li>a
+{
+	color: black;
+}
+.navbar li a, .dropdown-menu li a
+{
+
+font: Arial, sans-serif;
+font-weight: bolder;
+padding: 8px 10px;
+background-color: rgba(0, 0, 0, 0.5) url();
+cursor: pointer;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: black;
+background-color: #D1D1D1;
+}
+
+.nav-pills>li >a:hover {
+color: black;
+background-color: #D1D1D1;
+}
+.skill-header
+{
+	text-transform: uppercase;
+	position: relative;
+	margin-left: 25%;
+	font-weight: bolder;
+}
+.roll p
+{
+	border-top:1px gray solid;
+	margin-left: 20%;
+	position: relative;
+	font-size: 14px;
+	color:#808080;
+}
+.social-links a
+{
+	font-size: 1.6em;
+	margin: 3em;
+}
+
+#programming, #hobby, #research
+{
+	background-color: rgba(86, 61, 124, 0.14902);
+	color: #fff;
+}
+.circled
+{
+	margin-bottom: 30px;
+width: 134px;
+height: 134px;
+margin: auto;
+border-radius: 50%;
+	border: 7px solid #ececec;
+}
+
+.circled:hover
+{
+	border-color: green;
+}
+
+nav.open
+{
+	width: .2em;
+}
+section
+{
+	border-top: 1px solid transparent;
+box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset;
+}
+header .navbar-toggle {
+    float: none;
+h1
+{
+	text-align: center;
+}
+
+/*
+
+.backimg
+{
+	
+	top: 0;
+	right: 0;
+	left: 0;
+	background-attachment: fixed;
+	position: relative;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+background-image: url('../../../Pictures/kali_linux_ii_by_humanlly-d5y4gaw.png');
+background-repeat: no-repeat;
+background-position: center center;
+height: 400px;
+}
+.my
+{
+	
+}
+
+#navheader
+{
+	background-color: #6A8CFA;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1999999999;
+
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+#menu 
+{
+	padding: 0;
+	margin: 0;
+}
+#menu ul
+{
+	padding: 0 0 80px 0;
+	margin: 0;
+}
+#menu li
+{
+	padding: 10px;
+	list-style: none;
+	float: left;
+	position: relative;
+	width: 6.9%;
+}
+
+#menu ul li a
+{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 78.2%;
+	display: block;
+}
+
+#menu ul ul
+{
+	position: absolute;
+	display: none;
+}
+
+#menu ul li:hover ul
+{
+	display: block;
+	position: absolute;
+
+}
+
+
+.main
+{
+	float: left;
+	color: green;
+	width: 90%;
+	word-wrap: break-word;
+	opacity: 0.9;
+    filter: alpha(opacity=70); *//* For IE8 and earlier */
+/*} */
