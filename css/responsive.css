@@ -1,22 +1,14 @@
-@media (max-width: 360px) {
-  
+@media (min-width: 360px) {
+  #home h1
+{
+	margin-left: 100px;
+}
  
-h1, .h1
+ #home .col-xs-pull-12 h1
 {
-	font-size: 88%;
+	margin-left: 100px;
 }
 
-  .col-xs-4
-{
-	font-size: 0.1em;
-}
-
-.social-links a
-{
-	font-size: 1.1em;
-	margin: 0.6em 0.6em 0.6em 0;
-
-  }
 }
 
    @media (max-width: 480px) {
@@ -35,6 +27,23 @@ h1, .h1
 
 
   @media (max-width: 360px) {
+  	h1, .h1
+{
+	font-size: 88%;
+}
+
+  .col-xs-4
+{
+	font-size: 0.1em;
+}
+
+.social-links a
+{
+	font-size: 1.1em;
+	margin: 0.6em 0.6em 0.6em 0;
+
+  }
+
   #programming, #hobby, #research,.footer
 {
 	background-color: black;

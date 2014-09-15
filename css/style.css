@@ -1,6 +1,7 @@
 body
 {
 	color: white;
+
 /* background: url(../images/alpha.png);position: fixed;
 top: 0;
 left: 0;
@@ -28,7 +29,19 @@ text-align: right;*/
 #home
 {
 	height: 1000px;
+	padding-top: 15%;
+	vertical-align: 
 }
+
+#home h1
+{
+text-align: center;
+}
+.social-links
+{
+	text-align: center;
+}
+
 
 header
 {
@@ -36,11 +49,14 @@ header
 	border-bottom: 0;
 }
 
-
-#home
+.font-playball
 {
-	padding-top: 50px;
+	font-family: 'Playball', cursiveArial, serif; 
+	font-weight: 400;
+
 }
+
+
 
 .icon-bar, span.sr-only {
   background-color: #fff;
