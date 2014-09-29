@@ -1,0 +1,230 @@
+body
+{
+	/*background: #e1e3e4 background-color:rgba(5,5,5,.8);;*/
+	background-color: #fff;
+	color: #fff;
+}
+
+@media (min-width: 520px) {
+
+	.navbar-inverse{
+		/*background: rgba(0, 0, 0, 0.5) url();
+		border-bottom: 0;
+		display: ;*/
+		border-radius: 0;
+	}
+
+	.nav ul li{
+		float: left;
+	}
+	
+	.content
+	{
+		float: right;
+	}
+
+}
+
+
+
+@media (min-width: 768px) {
+	.pull-right1
+	{
+		float: right;
+	}
+	.bigScren
+	{
+		background-color: rgb(255, 255, 255);
+	}
+	.vegas-background,.vegas-overlay
+	{
+		visibility: visible!important;
+	}
+	.footer
+	{
+		margin-top: 10.6%!important;
+	}
+
+}
+
+header nav
+{
+	
+}
+.vegas-background,.vegas-overlay
+{
+	visibility: hidden;
+}
+.font-playball {
+	font-family: 'Playball', cursiveArial, serif;
+	font-weight: 400;
+}
+#home h1 {
+	text-align: center;
+}
+
+/*.bg-.blur { 
+	width:367;
+	height:459px; 
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px); 
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px); 
+	filter: blur(3px);
+}
+*/
+.font-playball
+{
+	font-family: 'Playball', cursiveArial, serif; 
+	font-weight: 400;
+
+}
+
+
+
+.font-boboto
+{
+	font-family: 'Roboto', sans-serif, Arial;
+	font-weight: 400;
+	/*color: white;*/
+}
+.txt-shadow
+{
+	text-shadow:  1px 1px 1px #000; /*2px 2px #fff;*/
+	font-size: 100%;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	/*-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	*/
+
+}
+
+.my-name
+{
+	font-size: 200%;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+
+.name-container
+{
+	z-index: 2;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+/*blur the container and other elements in it*/
+.small-bg
+{
+	background-image: url(../images/bg/bg-face-mobile.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	zoom:3;
+	height:50%; 
+	background-color: #818181;
+	padding: 45%;
+	width: auto;
+	-webkit-filter: blur(0.4px);
+	-moz-filter: blur(0.4px); 
+	-o-filter: blur(0.4px);
+	-ms-filter: blur(0.4px); 
+	filter: blur(0.4px);
+	
+}
+
+/*remove the background blur when mouse is over it*/
+.small-bg:hover
+{
+	filter: none;
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px); 
+	-ms-filter: blur(0px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0'); 
+}
+
+.mygray
+{
+	color: #d3c9c9;
+}
+
+
+.nav{
+	
+	text-transform: uppercase;
+}
+
+.page
+{
+	color: inherit;
+	background-color: #eee;
+}
+
+
+.content
+{
+	/*background-image: url();
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;*/
+
+	/*text-align: center;*/
+	/*border-radius: 0;
+	padding: 26px;
+	margin-bottom: 0;*/
+}
+
+#footer
+{
+	/*background: #414141;*/
+	/*background-color: #414141;
+	color: #1b1b1b;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: auto;*/
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
+}
+
+.social-links a
+{
+	font-size: 1.6em;
+	margin: 3em;
+}
+
+#programming, #hobby, #research
+{
+	/*background-color: rgba(86, 61, 124, 0.14902);
+	color: #fff;*/
+}
+.circled
+{
+	margin-bottom: 30px;
+	width: 134px;
+	height: 134px;
+	margin: auto;
+	border-radius: 50%;
+	border: 7px solid #ececec;
+}
+
+.circled:hover
+{
+	border-color: green;
+}
+
+.footer
+{
+	margin-top: 41.3%;
+}
