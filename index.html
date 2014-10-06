@@ -10,8 +10,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/jquery.vegas.css">
 	<!-- <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'> -->
-
-
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 	<!--======================Custom css=======================-->
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -48,9 +47,9 @@
   					<li class="active"><a href="index.html">HOME</a></li>
   					<li ><a href="Interests.html" class="dropdown-toggle" data-toggle="dropdown">Interests<span class="caret"></span></a>
   						<ul class="dropdown-menu">
-  							<li><a href="Interests.html/#hobby">HOBBY</a></li>
-  							<li><a href="Interests.html/#work">Work</a></li>
-  							<li><a href="Interests.html/#other">OTHER</a></li>
+  							<li><a href="Interests.html#hobby">HOBBY</a></li>
+  							<li><a href="Interests.html#wor">Work</a></li>
+  							<li><a href="Interests.html#other">OTHER</a></li>
   						</ul>
   					</li>
   					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"  href="family.html">Family<span class="caret"></span></a>
@@ -78,27 +77,29 @@
 
 
 
-  	<section class="container-fluid container" id="home">
+  	<div class="container-fluid container" id="home">
   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 hidden-xs"><img src="images/img/bb.jpeg" class="img-circle img-responsive">
   		</div>
-  		<div class="col-xs-pull-12 txt-shadow">
+  		<div class="col-xs-pull-12 txt-shadow3">
   			<h1 class="font-playball ">Start something new,and don't forget to learn more!</h1>
   			<h1>WELCOME</h1>
   		</div>
-  		<div class="btn-group-xs btn-group-sm btn-group-lg  social-links">
-  			<a href="http://www.facebook.com/ayinloya" class="glyphicon-thumbs-up btn btn-primary"><img src="icon/facebook">Facebook</a>
-  			<a href="http://www.twitter.com/ayinloya" class="glyphicon-thumbs-up btn btn-primary">Twitter</a>
-  			<a href="http://www.github.com/ayinloya" class="glyphicon-thumbs-up btn btn-primary">Github</a>
-  		</div>
-  	</section>
-  	<section class="row container"> 
+  		<div class="btn-group-xs btn-group-sm btn-group-lg container">
+  			<div class="	social-links row">
+  				<a href="http://www.facebook.com/ayinloya" class="col-xs-5 col-sm-3 col-md-2 col-lg-2 facebook btn btn-primary"><i class="fa fa-facebook-square"></i> Facebook</a>
+  				<a href="http://www.twitter.com/ayinloya" class="col-xs-5 col-sm-3 col-md-2 col-lg-2 twitter btn btn-primary"><i class="fa fa-twitter"></i>Twitter</a>
+  				<i class="clear"></i>
+  				<a href="http://www.github.com/ayinloya" class="col-xs-5 col-sm-3 col-md-2 col-lg-2 github btn btn-primary"><i class="fa fa-github fa-inverse"></i> Github</a>
+  				<a href="https://plus.google.com/114303378338341663424/posts/p/pub" class="col-xs-5 col-sm-3 col-md-2 col-lg-2 googleplus btn btn-primary"><i class="fa fa-google-plus-square"></i> Google Plus</a>
 
-
-  		
-
-
-  		<div class="container-fluid content col-xs-11 col-sm-10 col-md-10 col-lg-10 txt-shadow" >
+  			</div>
   			
+  		</div>
+  	</div>
+  	<section class="container"> 
+
+  		<div class="container-fluid content col-xs-11 col-sm-10 col-md-10 col-lg-10 txt-shadow2" >
+
   			<div class="personal-objective">
   				<p id="objective">I am a reserved but ambitious young enterpreneur.</p>
 
@@ -176,6 +177,8 @@ type="text/javascript"
 src="js/jquery-2.1.1.min.js">
 </script>
 <script src="js/bootstrap.min.js"></script>
+
+<!-- ===================== Vegas plugin ==================== -->
 <script 
 type="text/javascript"
 src="js/jquery.vegas.js">
@@ -187,7 +190,7 @@ src="js/jquery.vegas.js">
 <script type="text/javascript">
 	$(function() {
 		$.vegas('slideshow',{
-			delay:4000000,
+			delay:5000,
 			backgrounds:[
  		   {src:'images/bg/kali_linux_1.png', fade:1000}, //milliseconds}
  		   {src:'images/bg/Linux-HD-Wallpapers-113.jpg',fade:1000},
