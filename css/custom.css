@@ -20,9 +20,9 @@ body
 }
 .github,.fa-github
 {
-	background-color:#fff;
-	border-color:#fff;
-	color: #020202;
+	background-color:#020202;
+	border-color:#020202;
+	color: #fff;
 }
 
 
@@ -53,6 +53,12 @@ body
 
 
 @media (min-width: 768px) {
+	.github,.fa-github
+	{
+		background-color:#fff;
+		border-color:#fff;
+		color: #020202;
+	}
 	.pull-right1
 	{
 		float: right;
@@ -87,17 +93,21 @@ body
 
 .fone
 {
-	background-image: url("../images/backgrounds/icon-fone.jpg");
+	background-image: url("../images/backgrounds/icon-phone.jpg");
+	background-size: cover;
 }
 
 .comp
 {
 	background-image: url("../images/backgrounds/icon-computer.jpg");
+	background-size: cover;
 }
 
 .web
 {
-	background-image: url("../images/backgrounds/icon-web.jpg");
+	background-image: url("../images/backgrounds/icon-web.png");
+	background-size: cover;
+	background-color: #fff;
 }
 
 
@@ -311,3 +321,88 @@ header nav
 {
 	margin-top: 41.3%;
 }
+
+
+/*Rotate container modify*/
+.container.rotate, .container-fluid .rotate{
+	border-radius: 80px;
+	border:5px dotted #333;
+}
+/*Rotate*/
+.container.rotate:hover,.container-fluid .rotate:hover{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg);
+
+	/*Transition*/
+	-webkit-transition: transform 3s;
+	-moz-transition: transform 3s;
+	-o-transition: transform 3s;
+	transition: transform 3s;
+}
+
+
+/*btn hover transition*/
+.btn-primary:hover{
+	/*Transition*/
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+}
+
+
+
+
+/*flipping pictures*/
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+
+/*
+
+ padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;*/

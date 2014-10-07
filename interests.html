@@ -46,30 +46,30 @@
       <div class="collapse navbar-collapse myMenu pull-right1" role="navigation" >
         <ul class="nav navbar-nav">
          <li ><a href="index.html">HOME</a></li>
-         <li class="active"><a href="Interests.html" class="dropdown-toggle" data-toggle="dropdown">Interests<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-           <li><a href="Interests.html#hobby">HOBBY</a></li>
-           <li><a href="Interests.html#work">Work</a></li>
-           <li><a href="Interests.html#other">OTHER</a></li>
+         <li class="active"><a href="interests.html" > <!-- class="dropdown-toggle" data-toggle="dropdown" --> Interests<!-- <span class="caret"></span> --></a>
+              <!-- <ul class="dropdown-menu">
+                <li><a href="interests.html#hobby">HOBBY</a></li>
+                <li><a href="interests.html#wor">Work</a></li>
+                <li><a href="interests.html#other">OTHER</a></li>
+              </ul> -->
+            </li>
+            <li class="dropdown"><a href="family.html"><!-- class="dropdown-toggle" data-toggle="dropdown" -->  Family<!-- <span class="caret"></span> --></a>
+              <ul class="dropdown-menu">
+               <!--  <li><a href="family.html#parents">PARENTS</a></li>
+               <li><a href="family.html#siblings">SIBLINGS</a></li> -->
+             </ul>
+           </li>
+           <!-- <li><a href="downloads.html">Downloads</a></li> -->
+           <li><a href="contact.html">Contact me</a></li>
          </ul>
-       </li>
-       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"  href="family.html">Family<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="family.html#parents">PARENTS</a></li>
-          <li><a href="family.html#siblings">SIBLINGS</a></li>
-        </ul>
-      </li>
-      <li><a href="downloads.html">Downloads</a></li>
-      <li><a href="contact.html">Contact me</a></li>
-    </ul>
+       </div>
+
+     </nav>
+   </header>
+
+   <div class="container name-container">
+    <h1 class="txt-shadow visible-xs-block my-name">Barnabas Ayinloya Nsoh : Interests</h1>
   </div>
-
-</nav>
-</header>
-
-<div class="container name-container">
-  <h1 class="txt-shadow visible-xs-block my-name">Barnabas Ayinloya Nsoh : Interests</h1>
-</div>
 <!-- <div class="small-bg container-fluid visible-xs-block bg-blur">
 </div> -->
 
@@ -79,7 +79,7 @@
 
 <div class=" container-fluid"> 
 
-  <div class="container-fluid content col-xs-11 col-sm-10 col-md-10 col-lg-10 txt-shadow2" >
+  <div class="container-fluid content col-xs-11 col-sm-12 col-md-10 col-lg-12 txt-shadow2" >
 
     <div id="programming" class=" container-fluid">
      <p>
@@ -87,13 +87,13 @@
     </p>
     <div class="row">
       <div class=" col-sm-4 col-md-4 col-lg-4 skills red_bottom">
-        <div class="circled img-circle web">
+        <div class="circled rotate img-circle web">
         </div>
         <h5 class="skill-header">Web site development</h5>
         <p>Spice your internet presence up with professional designs that are meant to deliver your content with style</p>
       </div>
       <div class=" col-sm-4 col-md-4 col-lg-4 skills red_bottom">
-        <div class="circled img-circle comp">
+        <div class="circled rotate img-circle comp">
         </div>
         <h5 class="skill-header">Desktop Application Development</h5>
         <p>Do you need a software solution for an everyday activity?</p>
@@ -101,7 +101,7 @@
         <p>You've got the right person</p>
       </div>
       <div class=" col-sm-4 col-md-4 col-lg-4 skills red_bottom">
-        <div class="circled img-circle fone">
+        <div class="circled rotate img-circle fone">
         </div>
         <h5 class="skill-header">Android application Development</h5>
         <p>Take your tools everywhere you go. Need to chat on the go, schedule a meeting or do some work online, android apps will take you there.</p>
@@ -109,7 +109,7 @@
     </div>
     <div id="hobby" class="container ">
       <div>
-        <ul>
+        <ul><h4>Hobbies</h4>
           <li>
             Programming
           </li>
@@ -160,24 +160,27 @@ src="js/jquery.vegas.js">
 
 
 <script type="text/javascript">
-	$(function() {
-		$.vegas('slideshow',{
-			delay:4000000,
-			backgrounds:[
- 		   {src:'images/bg/kali_linux_1.png', fade:1000}, //milliseconds}
- 		   {src:'images/bg/Linux-HD-Wallpapers-113.jpg',fade:1000},
- 		 //  {src:'images/backgrounds/bb.jpeg',fade:1000},
- 		// {src:'images/backgrounds/onepiece.jpg',fade:1000},
- 		  //, {src:'images/backgrounds/',fade1000},
- 		//   {src:'images/backgrounds/',fade1000},
- 		]
- 		   		//valign:'20%'
- 		   		//align:'right'
- 		   	})('overlay', {
- 		   		src:'images/bg/overlays/02.png'
- 		   	});
- 		   });
+  $(function() {
+    $.vegas('slideshow',{
+      delay:100000,
+      backgrounds:[
+        //milliseconds}
+        {src:'images/bg/Linux-HD-Wallpapers-113.jpg',fade:1000},
+        {src:'images/bg/20140514_103503.jpg', fade:1000},
+        {src:'images/bg/20140730_174236.jpg', fade:1000},
+       // {src:'images/backgrounds/20140514_103503.jpg',fade:1000},
+    // {src:'images/backgrounds/onepiece.jpg',fade:1000},
+      //, {src:'images/backgrounds/',fade1000},
+    //   {src:'images/backgrounds/',fade1000},
+    ]
+          //valign:'20%'
+          //align:'right'
+        })('overlay', {
+          src:'images/bg/overlays/02.png'
+        });
+      });
 </script>
+
 
 </body>
 </html>
