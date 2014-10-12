@@ -15,7 +15,7 @@ body
 }
 .googleplus
 {
-	background-color:#E90B0E;
+	background-color: #E90B0E;
 	border-color: #E90B0E;
 }
 .github,.fa-github
@@ -75,6 +75,7 @@ body
 	.txt-shadow3
 	{
 		font-size: 200em;
+		
 		color: #fff!important;
 	}
 
@@ -110,7 +111,6 @@ body
 	background-color: #fff;
 }
 
-
 .txt-shadow3
 {
 	font-size: 200em;
@@ -132,10 +132,7 @@ header nav
 {
 	visibility: hidden;
 }
-.font-playball {
-	font-family: 'Playball', cursiveArial, serif;
-	font-weight: 400;
-}
+.
 #home h1 {
 	text-align: center;
 }
@@ -150,12 +147,7 @@ header nav
 	filter: blur(3px);
 }
 */
-.font-playball
-{
-	font-family: 'Playball', cursiveArial, serif; 
-	font-weight: 400;
 
-}
 
 
 .txt-shadow2
@@ -172,12 +164,7 @@ header nav
 }
 
 
-.font-boboto
-{
-	font-family: 'Roboto', sans-serif, Arial;
-	font-weight: 400;
-	/*color: white;*/
-}
+
 .txt-shadow
 {
 	text-shadow:  1px 1px 1px #000; /*2px 2px #fff;*/
